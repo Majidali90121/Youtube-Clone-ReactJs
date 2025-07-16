@@ -1,0 +1,32 @@
+.search-results{
+    padding:20px;
+}
+.result-list{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:16px;
+}
+.video-item{
+    background:white;
+    border-radius:6px;
+    overflow:hidden;
+    box-shadow:0 2px 6px rgba(0,0,0,0.3)
+    transition:transform 0.4s ease;
+}
+.video-item:hover{
+    transform:scale(1.05);
+}
+.video-item img{
+    width:100%;
+    height:auto;
+    display:block;
+}
+.video-item h3{
+    font-size: 16px;
+    margin:8px;
+}
+.video-item p {
+    font-size:14px;
+    margin:0 8px 8px 8px;
+    color:#555;
+}

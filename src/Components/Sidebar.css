@@ -1,0 +1,36 @@
+.sidebar {
+    background:linear-gradient(to bottom,#202020,#181818);
+    height:100%;
+    color:white;
+    overflow-y:auto;
+    transition : width 0.4s ease;
+    box-shadow: 2px 0 5px rgba(0,0,0,0.3)
+}
+.sidebar .open{
+    width:240px;
+}
+.sidebar .closed{
+    width:72px;
+}
+.sidebar-item{
+    display:flex;
+    align-items:center;
+    padding:12px 24px;
+    cursor:pointer;
+    transition:background 0.2s;
+    border-left:4px solid transparent;
+}
+.sidebar-item:hover{
+    background:rgba(255,255,255,0.1);
+}
+.sidebar-item .active{
+    background:#e5e5e5;
+    font-weight:bold;
+}
+.sidebar-icon{
+    font-size:20px;
+    margin-right:16px;
+}
+.sidebar-text{
+    font-size:14px;
+}
