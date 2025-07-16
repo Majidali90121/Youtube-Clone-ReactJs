@@ -3,8 +3,10 @@
 A fully responsive **YouTube UI Clone** built with **React.js**, styled beautifully, and powered by **free video and music APIs**.  
 This project mimics the look and feel of the real YouTube platform including navigation, sidebar, video grid, search functionality, and music streaming.
 
-![YouTube Clone Screenshot](./Youtube.png)
-
+## 🎥 YouTube Clone Screenshot
+<p style="text-align:center">
+<img src="./Youtube.png" alt="You tube clone"/>
+</p>
 ---
 
 ## 🚀 Features
