@@ -4,9 +4,11 @@ A fully responsive **YouTube UI Clone** built with **React.js**, styled beautifu
 This project mimics the look and feel of the real YouTube platform including navigation, sidebar, video grid, search functionality, and music streaming.
 
 ## 🎥 YouTube Clone Screenshot
-<p style="text-align:center">
-<img src="./Youtube.png" alt="You tube clone"/>
+
+<p align="center">
+<img src="./Youtube.png" alt="You tube clone" width="800px"/>
 </p>
+
 ---
 
 ## 🚀 Features
@@ -42,26 +44,26 @@ npm run dev
 ```
 
 ## 📁 Folder Structure
-src/
-├── components/
-│   ├── Navbar.jsx
-│   ├── Sidebar.jsx
-│   ├── VideoCard.jsx
-│   ├── VideoList.jsx
-│   ├── SearchResults.jsx
-│   └── ...
-├── pages/
-│   ├── Home.jsx
-│   ├── Music.jsx
-│   ├── Account.jsx
-│   ├── Subscriptions.jsx
-│   └── Game.jsx
-├── utils/
-│   ├── api.js
-│   
-├── App.jsx
-├── main.jsx
-└── index.css
+src/<br/>
+├── components/<br/>
+│   ├── Navbar.jsx<br/>
+│   ├── Sidebar.jsx<br/>
+│   ├── VideoCard.jsx<br/>
+│   ├── VideoList.jsx<br/>
+│   ├── SearchResults.jsx<br/>
+│   └── ...<br/>
+├── pages/<br/>
+│   ├── Home.jsx<br/>
+│   ├── Music.jsx<br/>
+│   ├── Account.jsx<br/>
+│   ├── Subscriptions.jsx<br/>
+│   └── Game.jsx<br/>
+├── utils/<br/>
+│   ├── api.js<br/>
+│   <br/>
+├── App.jsx<br/>
+├── main.jsx<br/>
+└── index.css<br/>
 ## 🙌 Author
 - Majid Ali
 - Follow me on LinkedIn
